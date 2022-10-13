@@ -1,0 +1,146 @@
+.project-view-header {
+  margin-top: 40px;
+}
+
+.project-header-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.project-header-status {
+  background: #f2994a;
+  color: white !important;
+  border-radius: 4px;
+  height: 28px;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 3px 10px;
+}
+.project-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.view-project-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 24px;
+  color: #333333;
+}
+.upload-data-btn {
+  background: #2f80ed;
+  border-radius: 5px;
+  border: 1px solid #2f80ed;
+  color: #ffffff;
+  padding: 12px 26px;
+  font-size: 16px;
+}
+.export-data-btn {
+  border-radius: 5px;
+  border: 1px solid #2f80ed;
+  color: #2f80ed;
+  padding: 12px 26px;
+  font-size: 16px;
+  background: #f1f4f6 !important;
+}
+.creator-details p {
+  color: #333333;
+  font-weight: 600;
+  font-size: 16px;
+}
+.creator-details p span {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4f4f4f;
+}
+.single-project-description {
+  color: #6c757d;
+}
+.project-annotation-with-tags {
+  border-radius: 5px;
+  padding: 15px;
+  display: flex;
+  box-shadow: 0px 0px 48px rgb(0 0 0 / 8%);
+  background: #ffff;
+}
+.single-annotation-type-tags {
+  padding: 8px 15px;
+}
+
+.single-annotation-type-title {
+  color: #000000;
+}
+.project-tag-count {
+  color: #828282;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 10px;
+}
+.create-group-btn {
+  background: #2f80ed;
+  border-radius: 5px;
+  border: 1px solid #2f80ed;
+  color: white;
+  padding: 12px 26px;
+  font-size: 16px;
+  height: 48px;
+  margin-top: 25px;
+}
+
+.page-link {
+  font-size: 14px;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  background-color: #49505780;
+  color: #ffff;
+  line-height: 0.5;
+  margin-left: 6px;
+}
+
+.page-item.active .page-link {
+  z-index: 3;
+  color: #fff;
+  background-color: #3d5a80;
+  border-color: #3d5a80;
+  border-left: 0px !important;
+}
+.page-item.active {
+  border-left: 0px !important;
+}
+
+.selected-tags-badge {
+  display: flex;
+  flex-wrap: wrap;
+}
+.tooltip-container {
+  background-color: white;
+  color: black;
+}
+
+.group-list-heading {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 20px;
+  color: #4f4f4f;
+}
+
+.group-list-container {
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 0px 0px 48px rgb(0 0 0 / 8%);
+  background: #ffff;
+}
+
+.action-icons-lock {
+  cursor: pointer;
+  color: #4fd6b5;
+  font-size: 20px;
+}
+
+.group-create-filter {
+  display: flex;
+  justify-content: space-between;
+}

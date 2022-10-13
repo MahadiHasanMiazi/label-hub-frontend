@@ -1,0 +1,106 @@
+.ner-group-header {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+.ner-heading-text {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 24px;
+  color: #333333;
+}
+.annotation-type-ner {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #828282;
+}
+
+.ner-header-status {
+  background: #f2994a;
+  color: white !important;
+  border-radius: 4px;
+  height: 28px;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 3px 10px;
+}
+
+.ner-sub-category-badge-selected {
+  background-color: #5f6fc3 !important;
+  color: #ffffff;
+  padding: 5px 10px;
+  font-size: 12px;
+  margin: 3px;
+  cursor: pointer;
+}
+.ner-sub-category-badge {
+  background: none !important;
+  border: 1px solid #5f6fc3;
+  color: #495057;
+  padding: 5px 10px;
+  font-size: 12px;
+  margin: 3px;
+  cursor: pointer;
+}
+
+.ner-tag-toggle {
+  justify-content: flex-end;
+  color: #495057;
+  font-size: 14px;
+}
+.ner-main-section {
+  justify-content: center;
+}
+.ner-submit-button {
+  background: #2f80ed;
+  border-radius: 5px;
+  border: 1px solid #2f80ed;
+  color: #ffffff;
+  padding: 8px 25px;
+  font-size: 14px;
+}
+.ner-skip-button {
+  background: #e2b93b;
+  border-radius: 5px;
+  border: 1px solid #e2b93b;
+  color: #ffffff;
+  padding: 8px 25px;
+  font-size: 14px;
+}
+.ner-reject-button {
+  background: #eb5757;
+  border-radius: 5px;
+  border: 1px solid #eb5757;
+  color: #ffffff;
+  padding: 8px 25px;
+  font-size: 14px;
+}
+.ner-annotaion-text {
+  max-width: 700;
+  line-height: 1.5;
+  margin: auto;
+  font-size: 20px;
+  background: #ffffff;
+  color: #000000;
+  padding: 30px;
+  border-radius: 5px;
+}
+.ner-annotaion-text mark {
+  border: 2px solid #5f6fc3 !important;
+  background-color: transparent !important;
+  padding: 5px 5px !important;
+  border-radius: 4px;
+  margin: 0px 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.ner-annotaion-text mark > span {
+  color: #5f6fc3;
+}
+.ner-annotaion-text mark::after {
+  content: "X";
+  color: #eb5757;
+  margin: 0px 4px;
+  font-size: 16px;
+}

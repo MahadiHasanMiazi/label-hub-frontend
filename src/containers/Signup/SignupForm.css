@@ -1,0 +1,58 @@
+.signup-subtitle {
+  color: #343a40;
+  font-weight: 400;
+  font-size: 20px;
+}
+.signup-btn {
+  background-color: #27ae60 !important;
+  border: none;
+  color: white;
+  width: 150px;
+}
+.signup-btn:hover {
+  color: white;
+}
+
+.signup-container {
+  border-radius: 5px;
+  padding: 30px;
+}
+.signup-form {
+  padding: 6%;
+}
+.signin-link {
+  text-decoration: underline;
+  color: #000000;
+}
+.signin-link:hover {
+  text-decoration: none;
+  color: #27ae60;
+}
+.form-label {
+  color: #707070;
+  font-size: 14px;
+}
+.box-shadow {
+  box-shadow: 0 0.2rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+.signup-inputs {
+  border: none !important;
+  background-color: #f3f3f3 !important;
+  padding: 20px 10px;
+}
+.signup-inputs:focus {
+  box-shadow: 0 0 0 0.1rem #000000;
+}
+
+.already-have-acc {
+  font-size: 14px;
+  text-align: center;
+}
+.signup-select {
+  background-color: #f3f3f3 !important;
+  border: none !important;
+  cursor: pointer;
+}
+.signup-select:focus {
+  box-shadow: 0 0 0 0.1rem #000000;
+}

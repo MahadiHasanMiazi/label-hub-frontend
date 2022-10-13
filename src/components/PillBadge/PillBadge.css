@@ -1,0 +1,37 @@
+.pillBadge-container {
+  background-color: #5f6fc3;
+ 
+  height: 28px;
+  padding: 2px 12px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 4px;
+  text-align: center;
+}
+.pillBadge-and-cross{
+  display: inline-table;
+  padding: 8px;
+  background-color: #5F6FC3;
+  margin-right: 3px;
+  margin-bottom: 3px;;
+}
+
+.pillBadge-and-cross .cross-icon{
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+.pillBadge-and-cross-for-validator{
+  background-color: #79C35F;
+  padding: 8px;
+}
+.pillBadge-and-cross-for-validator .cross-icon{
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+.cross-icon{
+  font-weight: 600;
+  font-size: 18px;
+}

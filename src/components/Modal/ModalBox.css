@@ -1,0 +1,73 @@
+.closeIcon {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+  font-size: 21px;
+}
+
+.active-learning-label{
+  color: #4F4F4F;
+
+}
+.active-inactive-learning{
+  position: absolute;
+  display: flex;
+  right: 40px;
+  padding-top: 5px;
+}
+.modalHeader {
+  justify-content: end;
+  border-bottom: none !important;
+  height: 215px;
+}
+.modal-content {
+  border-radius: 10px !important;
+  border: none !important;
+}
+.main-text {
+  color: #000000 !important;
+}
+.modal-body {
+  text-align: center;
+}
+.modal-footer {
+  justify-content: center;
+  border: none !important;
+}
+.modal-header {
+  border-bottom: none !important;
+}
+.close-action-btn {
+  background-color: #2f80ed !important;
+  color: white !important;
+  font-weight: 400;
+  border: none;
+  border-radius: 5px;
+  width: 65px;
+  padding: 4px 0px;
+}
+
+.success-action-btn {
+  border: 1px solid #2f80ed !important;
+  color: #2f80ed !important;
+  font-weight: 400;
+  border-radius: 5px;
+  width: 65px;
+  transition: all 0.4s ease;
+  padding: 4px 0px;
+  background-color: transparent !important;
+}
+.modal-type {
+  position: absolute;
+  width: 250px;
+  height: 200px;
+  left: 130px;
+  top: 0px;
+  border-radius: 0px 0px 134px 134px;
+}
+.modal-icon {
+  position: relative;
+  left: 33%;
+  top: 15%;
+}

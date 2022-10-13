@@ -1,0 +1,26 @@
+.annotation-type-title {
+  color: #828282;
+  font-size: 14px;
+  line-height: 24px;
+}
+.annotation-type-count {
+  color: #000000;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 20px;
+}
+.annotation-type-container {
+  height: 100px;
+  padding: 20px;
+  border: 1px solid #e6e6e6;
+  border-top: none;
+  background-color: white;
+}
+
+
+.annotation-data-heading {
+  color: #4f4f4f;
+  font-weight: 400;
+  font-size: 22px;
+  padding: 10px 15px;
+}

@@ -1,0 +1,49 @@
+.assign-data-annotation-heading {
+  font-size: 14px;
+  color: #adb5bd;
+}
+
+.assign-ner-modal-title {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 20px;
+  color: #000000;
+}
+.dataupload-badge:hover {
+  color: #495057;
+  background-color: #e2e2e2 !important;
+  border: none !important;
+}
+.ner-asign-modal-body {
+  text-align: initial !important;
+}
+.available-assign-data {
+  float: right;
+  color: #adb5bd;
+  font-size: 14px;
+}
+
+.assigndata-btn {
+  height: 48px;
+  background: #2f80ed;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.assigndata-btn:hover {
+  color: #ffffff;
+}
+
+.assign-data-error {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 5px;
+  color: #eb5757;
+}
+
+.assign-data-modal-footer {
+  justify-content: flex-start !important;
+  margin-top: -15px;
+}

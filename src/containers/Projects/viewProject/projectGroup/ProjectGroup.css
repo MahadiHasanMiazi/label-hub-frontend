@@ -1,0 +1,75 @@
+.project-overview-btn {
+  border: 1px solid #3d5a80;
+  color: #3d5a80;
+  width: 65% !important;
+  transition: all 0.4s ease;
+}
+.project-overview-btn:hover {
+  color: #e5e5e5;
+  background-color: #3d5a80;
+}
+.project-overview-delete-btn {
+  color: #f24c4c;
+  border: 1px solid #f24c4c;
+  width: 20%;
+}
+.project-overview-delete-btn:hover {
+  color: #e5e5e5;
+  background-color: #f24c4c;
+}
+
+.lock-btn {
+  background-color: #e9ecef;
+}
+.project-group-header-status {
+  background: #e5e5e5;
+  border-radius: 5px;
+  font-size: 10px;
+  letter-spacing: 2px;
+  height: 15px;
+  font-weight: 500;
+}
+.group-project-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.group-project-header {
+  display: flex;
+  align-items: center;
+}
+.group-project-description {
+  color: #707070;
+}
+
+.project-overview-container {
+  transition: all 0.4s ease;
+  border: 2px solid transparent;
+  height: 100%;
+}
+.project-overview-container:hover {
+  border: 2px solid #3d5a80;
+}
+.box-shadow {
+  box-shadow: 0 0.2rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+.project-overview-heading {
+  color: #343a40;
+  font-size: 16px;
+  margin-right: 5px;
+}
+.group-info {
+  color: #adb5bd;
+  font-size: 14px;
+}
+.project-group-short-infos {
+  height: 80%;
+}
+.project-group-btns {
+  height: 20%;
+}
+.group-locked {
+  pointer-events: none;
+  opacity: 0.4;
+}

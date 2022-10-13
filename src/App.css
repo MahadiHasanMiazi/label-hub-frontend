@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.breadcrumb {
+  background-color: transparent !important;
+  padding-left: 0px !important;
+  font-size: 16px !important;
+}
+.breadcrumb-item a {
+  color: #828282 !important;
+}
+.breadcrumb-item.active {
+  background: none !important;
+  border-left: none !important;
+  color: #000000;
+}
+a:hover {
+  text-decoration: none;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0 10px;
+  border-radius: 6px;
+  text-align: center;
+}
+thead {
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+}
+tr {
+  background: #fafafa;
+}
+.tooltip > .tooltip-inner {
+  background: white;
+  box-shadow: 0px 0px 48px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  color: #000000;
+  padding: 5px;
+  font-size: 12px;
+}
+
+.tooltip::after {
+  position: absolute;
+  left: 43%;
+  bottom: 5px;
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: white;
+  transform: rotate(45deg);
+}
+
+.custom-input-style {
+  padding: 25px 10px;
+  border-radius: 8px;
+  color: #000000;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+}
+.custom-input-style:focus {
+  box-shadow: 0 0 0 0.1rem #000000;
+  border-color: transparent;
+}
+
+input[type="checkbox"] {
+  accent-color: #2f80ed;
+  width: 18px;
+  height: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type="radio"] {
+  accent-color: #2f80ed;
+  width: 18px;
+  height: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.custom-select-style {
+  height: 50px;
+  cursor: pointer;
+}
+
+.custom-select-style:focus {
+  box-shadow: 0 0 0 0.1rem #000000;
+  border-color: transparent;
+}
+
+.switch-on {
+  background: #605dec !important;
+  border: none !important;
+}
+.switch-on {
+  background: #605dec !important;
+  border: none !important;
+}
+
+.switch.btn-primary.btn-xs {
+  background: #605dec !important;
+  border: 1px solid #605dec !important;
+}
+.react-switch {
+  vertical-align: initial !important;
+}
+.react-switch-bg {
+  height: 19px !important;
+  width: 47px !important;
+}
+.react-switch-handle {
+  height: 17px !important;
+  width: 17px !important;
+}
+

@@ -1,0 +1,31 @@
+.overview-heading {
+  color: #333333;
+  font-size: 18px;
+  font-weight: 600;
+}
+.overview-count {
+  color: #000000;
+  font-size: 48px;
+}
+.overview-container {
+  transition: all 0.4s ease;
+  border: 2px solid transparent;
+  background-color: #ffffff;
+}
+.overview-container:hover {
+  border: 2px solid  #89A2F2;
+}
+.box-shadow {
+  box-shadow: 0 0.2rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+.overview-btn {
+  background-color:  #5a7ded;
+  color: #fff;
+  transition: all 0.4s ease;
+}
+.overview-btn:hover {
+  background-color: #89A2F2;
+  border: 1px solid transparent;
+  color: #fff;
+  text-decoration: none;
+}

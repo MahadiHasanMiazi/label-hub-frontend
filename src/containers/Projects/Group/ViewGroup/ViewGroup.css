@@ -1,0 +1,59 @@
+.project-header-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.group-header-status {
+  background: #f2994a;
+  color: white !important;
+  border-radius: 4px;
+  height: 28px;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 3px 10px;
+}
+.group-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.assign-data-btn {
+  border-radius: 5px;
+  border: 1px solid #2f80ed;
+  color: #2f80ed;
+  padding: 14px 26px;
+  font-size: 16px;
+  background: #f1f4f6 !important;
+}
+.group-export-btn {
+  background: #2f80ed !important;
+  border-radius: 5px;
+  border: 1px solid #2f80ed;
+  color: white;
+  padding: 14px 26px;
+  font-size: 16px;
+ 
+}
+.creator-details p {
+  color: #6c757d;
+}
+.annotator-validator-section-title {
+  color: #6c757d;
+}
+
+.group-annotation-with-tags {
+  border-radius: 5px;
+  display: flex;
+}
+
+.group-info-content {
+  color: #333333;
+  font-weight: 600;
+  font-size: 16px;
+}
+.group-info-content span {
+  color: #4f4f4f;
+  font-weight: 400;
+  font-size: 16px;
+}

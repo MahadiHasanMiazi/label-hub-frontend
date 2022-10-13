@@ -1,0 +1,41 @@
+name: deployment
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install SSH Key
+        uses: shimataro/ssh-key-action@v2
+        with:
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          known_hosts: just-a-placeholder
+
+      - name: Adding Known Hosts
+        run: ssh-keyscan -p ${{ secrets.SSH_PORT}} -H ${{ secrets.SSH_HOST }}  >> ~/.ssh/known_hosts
+        
+      - name: deploy application
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USER }}
+          password: ${{secrets.SSH_PASSWORD}}
+          port: ${{ secrets.SSH_PORT }}
+          script: |
+            cd /mldata/code/
+            rm -rf label-hub-ui/
+            git clone git@github-sadia:giga-tech/label-hub-ui.git
+            cd label-hub-ui/
+            echo "Setup environment variable file"
+            touch .env
+            echo "REACT_APP_USER_SERVICE_URL="${{secrets.REACT_APP_USER_SERVICE_URL}} >> .env
+            echo "REACT_APP_PROJECT_SERVICE_URL="${{secrets.REACT_APP_PROJECT_SERVICE_URL}} >> .env
+            echo "REACT_APP_NER_SERVICE_URL="${{secrets.REACT_APP_NER_SERVICE_URL}} >> .env
+            cat .env
+            git checkout main
+            docker-compose up --build -d
+

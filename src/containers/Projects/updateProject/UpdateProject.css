@@ -1,0 +1,53 @@
+.update-project-modal-header {
+  color: #000000;
+  padding: 20px 20px;
+}
+.updateProject-btn {
+  background-color: #2f80ed;
+  color: white;
+  font-weight: 400;
+  /*width: 118px;*/
+  height: 48px;
+}
+.update-project-modal-title {
+  color: #000000;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 20px;
+}
+.updateProject-btn:hover {
+  color: white;
+}
+.update-modal-header {
+  justify-content: space-between !important;
+  border-bottom: none !important;
+}
+.modal-content {
+  border-radius: 10px !important;
+  border: none !important;
+}
+.main-text {
+  color: #6c757d;
+}
+.update-modal-body {
+  text-align: initial !important;
+}
+
+.update-modal-footer {
+  justify-content: flex-start !important;
+}
+
+.update-project-textarea {
+  height: 100px !important;
+  width: 600px !important;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  padding: 25px 10px;
+  border-radius: 8px;
+  color: #000000;
+}
+.update-project-textarea:focus {
+  box-shadow: 0 0 0 0.1rem #000000;
+  border-color: transparent;
+}

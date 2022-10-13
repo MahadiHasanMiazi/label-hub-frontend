@@ -1,0 +1,16 @@
+.user-search::-webkit-input-placeholder {
+    text-align: right;
+  }
+  
+  .user-search::-moz-placeholder {
+    text-align: right;
+  }
+  .search-icon-user {
+    position: absolute;
+    left: 26px;
+    bottom: 0;
+    top: 26px;
+    color: #212121;
+    font-size: 30px;
+  }
+  

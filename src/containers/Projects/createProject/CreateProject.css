@@ -1,0 +1,169 @@
+.creat-project-modal-header {
+  padding: 20px;
+}
+.annotation-types {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  font-size: 16px;
+  height: 100%;
+  padding-top: 15px;
+}
+.create-project-annotation {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  font-size: 16px;
+  height: 100%;
+  padding-top: 15px;
+}
+.annotation-tags{
+ 
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  font-size: 16px;
+  height: 100%;
+  padding-top: 15px;
+}
+.create-project-modal-title {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 20px;
+  color: #000000;
+}
+.anotaion-list {
+  border: none !important;
+  text-align: left;
+  padding: 0px;
+  margin: 4px 4px;
+  background-color: transparent;
+  color: #707070;
+}
+
+.project-data-upload .annotation-types {
+  border: none;
+}
+.project-data-upload .annotation-types span {
+  margin-left: 0px !important;
+}
+
+.project-data-upload .form-label {
+  color: #333333;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.slected-annotationType {
+  border: 1px solid #1f2d400f !important;
+  background-color: #adb5bd33 !important;
+  color: #6c757d;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+}
+.last-annotationType {
+  border: 1px solid #1f2d400f !important;
+  background-color: #adb5bd33 !important;
+  color: #357cee;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.selected-tagToggle {
+  color: #f24c4c;
+}
+.annotation-type-tags {
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.annotation-type-tags::-webkit-scrollbar {
+  width: 5px;
+  background-color: rgb(44, 41, 42);
+}
+
+.selected-annotation-type-tags {
+  padding: 8px 15px;
+}
+.selected-annotation-type-title {
+  color: #707070;
+}
+
+.createProject-btn {
+  background-color: #2f80ed;
+  color: white;
+  font-weight: 400;
+}
+.createProject-btn:hover {
+  color: white;
+}
+
+.createProject-modal-footer {
+  justify-content: flex-start !important;
+}
+
+.create-project-textarea {
+  height: 100px !important;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  padding: 20px 10px;
+  border-radius: 8px;
+  color: #000000;
+}
+.create-project-textarea:focus {
+  box-shadow: 0 0 0 0.1rem #000000;
+  border-color: transparent;
+}
+
+.annotation-tag-badge {
+  border: 1px solid #5f6fc3;
+  padding: 6px 10px;
+  color: #5f6fc3;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 4px;
+  text-align: center;
+  background-color: transparent;
+}
+.annotation-tag-badge-selected {
+  background-color: #5f6fc3;
+  padding: 6px 10px;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.form-check-label {
+  cursor: pointer;
+}
+.form-check {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.eye-icon-task {
+  cursor: pointer;
+  color: #2f80ed33;
+  font-size: 25px;
+}
+
+.current-annotation-type {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  color: #4f4f4f;
+}

@@ -1,0 +1,53 @@
+.closeIcon {
+  cursor: pointer;
+  font-size: 21px;
+}
+.edit-modal-header {
+  justify-content: space-between !important;
+  border-bottom: none !important;
+}
+.modal-content {
+  border-radius: 10px !important;
+  border: none !important;
+}
+.main-text {
+  color: #6c757d;
+}
+.edit-modal-body {
+  text-align: initial !important;
+}
+
+.close-action-btn {
+  background-color: #3d5a80;
+  color: white;
+  font-weight: 400;
+  border: none;
+  border-radius: 5px;
+  width: 65px;
+  padding: 4px 0px;
+}
+
+.success-action-btn {
+  border: 1px solid #3d5a80;
+  color: #6c757d;
+  font-weight: 400;
+  border-radius: 5px;
+  width: 65px;
+  transition: all 0.4s ease;
+  padding: 4px 0px;
+}
+.edit-modal-footer {
+  justify-content: flex-start;
+}
+.adduser-btn {
+  background-color: #2F80ED;;
+  color: white;
+  font-weight: 400;
+}
+.adduser-btn:hover {
+  color: white;
+}
+.user-add-modal-title {
+  color: #000000;
+  
+}

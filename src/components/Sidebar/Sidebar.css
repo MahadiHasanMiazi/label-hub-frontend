@@ -1,0 +1,129 @@
+.sidebar-wrapper {
+  display: block;
+  background: #ffffff;
+  box-shadow: 1px 0px 48px rgba(0, 0, 0, 0.08);
+}
+
+.sidebar-container {
+  background: white;
+  min-height: 100vh;
+  height: 100%;
+  width: 266px;
+  margin-left: -266px;
+  transition: 0.5s ease-in-out;
+}
+.small-sidebar-container {
+  background: white;
+  min-height: 100vh;
+  height: 100%;
+  width: 70px;
+  transition: 0.5s ease-in-out;
+}
+.content {
+  position: sticky;
+  top: 2%;
+}
+.show-sidebar {
+  margin-left: 0;
+}
+header {
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  padding: 60px 20px;
+  color: #25282b;
+  justify-content: space-between;
+}
+.toggle-icon {
+  font-size: 25px;
+  cursor: pointer;
+}
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  color: #333333;
+}
+.nav-links-smallbar {
+  display: flex;
+  flex-direction: column;
+}
+.nav-link {
+  display: flex;
+  align-items: center;
+  color: #333333;
+  padding: 1rem 0;
+  padding-left: 2.5rem;
+  text-transform: capitalize;
+  transition: 0.5s ease-in-out;
+}
+
+.nav-link-smallbar {
+  display: flex;
+  align-items: center;
+  color: #333333;
+  text-transform: capitalize;
+  padding: 1rem 0;
+  padding-left: 1.5rem;
+  transition: 0.5s ease-in-out;
+
+}
+.nav-link:hover {
+  background: #ebf2ee;
+  padding-left: 3rem;
+  color: #27ae60;
+  background: #ebf2ee;
+  border-radius: 8px;
+  margin: 0px 13px;
+}
+
+.nav-link-smallbar:hover {
+  background: #ebf2ee;
+  color: #27ae60;
+  background: #ebf2ee;
+  border-radius: 8px;
+  margin: 0px 13px;
+  padding: 10px;
+}
+.nav-link:hover .icon {
+  color: #27ae60;
+}
+.icon {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  display: grid;
+  place-items: center;
+  transition: 0.5s ease-in-out;
+}
+.active {
+  background: #ebf2ee;
+  border-radius: 8px;
+  margin: 0px 13px;
+  color: #27ae60;
+}
+.active-smallbar {
+  background: #ebf2ee;
+  border-radius: 8px;
+  margin: 0px 13px;
+  color: #27ae60;
+  padding: 10px;
+}
+.active .icon {
+  color: #27ae60;
+}
+.content-logout {
+  position: fixed;
+  bottom: 0;
+  width: 250px;
+}
+
+.sidebar-logo {
+  width: 65%;
+}
+
+.toggle-close {
+  color: #eb5757ed;
+  font-size: 25px;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+

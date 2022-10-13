@@ -1,0 +1,14 @@
+.project-search{
+   padding-left: 15% !important;
+  }
+  
+  
+  .search-icon-project {
+    position: absolute;
+    left: 26px;
+    bottom: 0;
+    top: 26px;
+    color: #212121;
+    font-size: 30px;
+  }
+  

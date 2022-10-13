@@ -1,0 +1,15 @@
+.group-search::-webkit-input-placeholder {
+  text-align: right;
+}
+
+.group-search::-moz-placeholder {
+  text-align: right;
+}
+.search-icon-group {
+  position: absolute;
+  left: 26px;
+  bottom: 0;
+  top: 26px;
+  color: #212121;
+  font-size: 30px;
+}
